@@ -1,0 +1,13 @@
+{
+  "name": "fieldsignals-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FieldSignals — Climate-Adaptive Agronomic Intelligence Powered by NASA Earth Observations",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend start",
+    "test": "npm --prefix frontend test",
+    "smoke:prod": "npm --prefix frontend run smoke:prod"
+  }
+}
