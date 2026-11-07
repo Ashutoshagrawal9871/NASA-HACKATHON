@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fieldsignals-nasa
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm --prefix frontend install && npm --prefix frontend run build
+    startCommand: npm --prefix frontend start
+    envVars:
+      - key: NODE_ENV
+        value: production

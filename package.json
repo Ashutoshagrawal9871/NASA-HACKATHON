@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "FieldSignals — Climate-Adaptive Agronomic Intelligence Powered by NASA Earth Observations",
+  "workspaces": [
+    "frontend"
+  ],
   "scripts": {
+    "postinstall": "npm --prefix frontend install",
     "dev": "npm --prefix frontend run dev",
     "build": "npm --prefix frontend run build",
     "start": "npm --prefix frontend start",
