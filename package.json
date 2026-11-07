@@ -2,6 +2,7 @@
   "name": "fieldsignals-workspace",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "FieldSignals — Climate-Adaptive Agronomic Intelligence Powered by NASA Earth Observations",
   "workspaces": [
     "frontend"
@@ -13,5 +14,9 @@
     "start": "npm --prefix frontend start",
     "test": "npm --prefix frontend test",
     "smoke:prod": "npm --prefix frontend run smoke:prod"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
